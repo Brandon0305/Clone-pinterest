@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    gap: 20px;
+    height: 10vh;
+
+}
+.logo{
+    height: 45%;
+    border-radius: 45px;
+    transition: 0.3s;
+
+}
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+   border-radius: 20px;
+   height: 70%;
+   width: 50px;
+}
+header p:hover {
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: black;
+}
+.logo:hover{
+    cursor: pointer; 
+    height: 55%;
+}
+.buscador{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl4GP3c9Yt8CevKw44AypmZe50ub3bun2KNQ&usqp=CAU );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 10px 5px;
+    padding-left: 35px;
+    font-size: large;
+    background-color: rgb(241, 239, 239);
+    width: 1050px;
+    height: 40px;
+    border-radius: 30px;
+}
+.bell{
+    border-radius: 15px;
+    height: 20px;
+    cursor: pointer;
+}
+.mensaje{
+    border-radius: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+.perfil{
+    cursor: pointer; 
+    height: 30%;
+    border-radius: 50px;
+}
+ 
+main{
+   display: flex;
+   flex-direction: row;
+    background-color:gainsboro;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 15px;
+    gap: 5px;
+    
+}
+.galery-1{
+border-radius: 25px;
+object-fit: cover;
+}
+#i1{
+    background-image: url(https://media.istockphoto.com/id/166272752/es/foto/pista-de-carreras-de-coches.jpg?s=612x612&w=0&k=20&c=Ah8PHvJNrg3fEqxNLcXaKOCgy2lPy423DXmduazwk9k=);
+     height: 30%;
+}
+.galery-2{
+    border-radius: 25px;
+    object-fit: cover;   
+}
+.galery-3{
+    border-radius: 25px;
+    object-fit: cover
+}
+.galery-4{
+    border-radius: 25px;
+    object-fit: cover 
+}
+.galery-5{
+    border-radius: 25px;
+    object-fit: cover 
+}
+footer{
+    background-color: yellow;
+    height: 10vh;
+}
